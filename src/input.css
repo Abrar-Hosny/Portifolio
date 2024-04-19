@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.main-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sign{
+    stroke-dasharray: 1758;
+    stroke-dashoffset: 1758;
+    animation: animate 2s ease-in forwards;
+
+}
+
+@keyframes animate{
+to{
+    stroke-dashoffset: 0;
+}
+}
+
+
+.project-section {
+    background-color: rgb(22, 15, 29);
+}
